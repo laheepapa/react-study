@@ -1,23 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import CSSModule from './CSSModule';
+// import style from './CSSModule.module.css';
+import StyleCompoent from './StyledComponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.한번 더 테스트..넌 두번쨰에서 나온 네번쨰
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // <div className="App">
+    //   <header className="App-header">
+    //     <img src={logo} className="App-logo" alt="logo" />
+    //     <p>
+    //       Edit <code>src/App.js</code> and save to reload.한번 더 테스트..넌 두번쨰에서 나온 네번쨰
+    //     </p>
+    //     <a
+    //       className="App-link"
+    //       href="https://reactjs.org"
+    //       target="_blank"
+    //       rel="noopener noreferrer"
+    //     >
+    //       Learn React
+    //     </a>
+    //   </header>
+    // </div>
+    <div>
+      <StyleCompoent />
     </div>
   );
 }
